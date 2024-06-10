@@ -1,0 +1,33 @@
+/*real roots of a quadratic equation*/
+#include<stdio.h>
+#include<math.h>
+main()
+{
+float a,b,c,d,x1,x2
+/*read input data*/
+printf("a=");
+scanf("%",&a);
+printf("b="):
+scanf("%f",&b);
+printf("c=");
+scanf("f",&c);
+/*carry out the calculations*/
+/**************************************************error isolation****************************************************
+d=sqrt(b*b-4*a*c);
+x1=(-b+b)/(2*a);
+x2=(-b-b)/(2*a);
+**********************************************************************EndErrorIsolation********************************************************
+/*display the output*/
+printf("/n x1=%e x2=%e",x1,x2);
+/*real roots of a quadratic equation*/
+#include<studio.h>
+#include<math.h>
+main()
+Debugging Line1
+Debugging Line 2
+Debugging Line 3
+a=1.000000e-30 b=1.000000e+10 c=1.000000e+36   d=1.000000e=10
+-b=d=0.000000e+00
+-b-d=-2.000000e+10
+x2=(-b-d)/(2*.000000e+10)/(2*a)=(-2.000000e+10)/(2*1.000000e-30)=-1.00000000e+40
+-1.000000e=40;Overflow
